@@ -8,6 +8,11 @@ img {
   position: relative;
 }
 
+/* Headings */
+.large-heading {
+  font-size: 5rem;
+}
+
 /* Introduction section */
 #introduction {
   background-color: #40FF59;
@@ -114,11 +119,11 @@ img {
 @media (max-width: 1100px) {
 
   .introduction-paragraph {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .introduction-img {
-    width: 230px;
+    width: 400px;
     border-radius: 0;
     margin: 4%;
   }
@@ -128,28 +133,28 @@ img {
   }
 
   .hobby-paragraph {
-    font-size: 1rem;
-  }
-
-  .hobby-heading {
     font-size: 2rem;
   }
 
+  .hobby-heading {
+    font-size: 4rem;
+  }
+
   .hobby-name {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
   .first-dog-image {
-    width: 160px;
+    width: 300px;
     transform: rotate(0);
   }
 
   .second-dog-image {
-    width: 160px;
+    width: 300px;
     transform: rotate(0);
   }
 
   .horse-image {
-    width: 120px;
+    width: 250px;
   }
 }
