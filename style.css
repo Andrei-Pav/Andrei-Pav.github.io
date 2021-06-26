@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  border-radius: 17%;
+  position: relative;
+}
+
+/* Introduction section */
+#introduction {
+  background-color: #40FF59;
+  color: #9E4D63;
+  padding: 1% 5% 10%;
+}
+
+.introduction-img {
+  width: 400px;
+  border-radius: 0;
+  margin: 4%;
+}
+
+.introduction-paragraph {
+  font-size: 1.3rem;
+}
+
+/* Hobbies section  */
+  .hobby-heading {
+    background-color: #5D9E66;
+    margin: 0;
+    padding-top: 2%;
+    font-size: 3.2rem;
+  }
+
+  .hobby-name {
+    padding-bottom: 3%;
+    font-size: 2.5rem;
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  .hobby-paragraph {
+    padding: 0 5%;
+    order: 2;
+    font-size: 1.3rem;
+  }
+/* Animals hobby */
+
+.animals-hobby {
+  padding: 8% 5%;
+  background-color: #5D9E66;
+}
+
+.hobby-first-row {
+  display: flex;
+}
+
+.first-dog-image {
+  width: 300px;
+  order: 1;
+  transform: rotate(-10deg);
+  object-fit: scale-down;
+}
+
+.second-dog-image {
+  width: 300px;
+  order: 3;
+  transform: rotate(10deg);
+  object-fit: scale-down;
+}
+
+.horse-image {
+  width: 250px;
+  object-fit: scale-down;
+}
+
+/* Bike hobby */
+
+.bike-hobby{
+  padding: 8% 5%;
+  background-color: hsl(128, 65%, 87%) ;
+}
+
+.bike-image {
+  width: 300px;
+  order: 1;
+  object-fit: scale-down;
+  border-radius: 0;
+}
+
+/* Footer */
+
+#footer {
+  padding-top: 3%;
+}
+
+.social-media {
+    padding: 5% 2%;
+}
+
+.social {
+  margin: 2%;
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  text-align: left;
+}
+
+/* Media */
+
+@media (max-width: 1100px) {
+
+  .introduction-paragraph {
+    font-size: 1rem;
+  }
+
+  .introduction-img {
+    width: 230px;
+    border-radius: 0;
+    margin: 4%;
+  }
+
+  .hobby-first-row {
+    display: block;
+  }
+
+  .hobby-paragraph {
+    font-size: 1rem;
+  }
+
+  .hobby-heading {
+    font-size: 2rem;
+  }
+
+  .hobby-name {
+    font-size: 1.5rem;
+  }
+
+  .first-dog-image {
+    width: 160px;
+    transform: rotate(0);
+  }
+
+  .second-dog-image {
+    width: 160px;
+    transform: rotate(0);
+  }
+
+  .horse-image {
+    width: 120px;
+  }
+}
